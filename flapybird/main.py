@@ -50,6 +50,7 @@ root.protocol("WM_DELETE_WINDOW", kapat)
 devam = True
  
 starting_time = time.time()
+
 while devam:
     time.sleep(0.02)
     pencere.update()
